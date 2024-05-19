@@ -6,11 +6,11 @@ public class Main{
       int balance = 10000, deposit,withdraw;
 
       while(true){
-           System.out.println( "choose 1 for deposit :");
-           System.out.println( "choose 2 for Withdraw :");
-           System.out.println("choose 3 for balance inquiry :");
-           System.out.println( "choose 4 for exit :");
-           System.out.println( "choose correct operation to perform :");
+           System.out.println( "Choose 1 for deposit :");
+           System.out.println( "Choose 2 for Withdraw :");
+           System.out.println("Choose 3 for balance inquiry :");
+           System.out.println( "Choose 4 for exit :");
+           System.out.println( "Choose correct operation to perform :");
 
            int choice = sc.nextInt();
            switch (choice) {
