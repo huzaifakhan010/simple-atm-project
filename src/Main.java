@@ -22,3 +22,23 @@ public class atm{
                    System.out.println("Your update balance is:"+balance);
                    System.out.println();
                 break;
+            case 2:
+                System.out.println("Enter amount to withdraw");
+                withdraw = sc.nextInt();
+             if(balance >=withdraw){
+                 balance = balance -withdraw; 
+                 System.out.println("your updated is:"+balance);
+             } else{
+                 System.out.println("insufficiant funds...!");
+             }
+                 break;
+            case 3:
+                 System.out.println("your account balance is:"+balance);
+                 System.out.println();
+                 break;
+            case 4:
+                     System.exit(0);
+         }
+     }
+ }
+}
